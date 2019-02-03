@@ -1,0 +1,494 @@
+body {
+    font-family: "brandon-grotesque";
+    line-height: 1.4;
+    font-weight: 300;
+    margin:20px;
+    background-color:#f2f2f2;
+
+
+    }
+
+.main-page {
+    margin: 0;
+}
+
+div.information {
+    width: 480px;
+    position: absolute;
+    top: 10px;
+}
+
+h1 {
+    font-size: 1.3em;
+}
+
+h4, {
+
+    padding-bottom: 10px;
+}
+
+h5,  {
+    font-weight: 100;
+}
+ 
+h6  {
+    font-weight: bold;
+    margin: 0;
+
+    
+}
+
+.main-title {
+    text-align: center; 
+}
+
+.main-title h1 {
+    font-size: 2em;
+    font-weight: 300;
+
+
+}
+
+
+div.colors {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    display: flex;
+}
+
+span.color {
+    width: 40px;
+    height: 40px;
+        margin: 0.4em;
+}
+
+span.color.red {
+    background-color: red;
+}
+
+span.color.beige {
+    background-color: beige;
+}
+
+span.color.gray {
+    background-color: gray;
+}
+span.color.orange {
+    background-color: orange;
+}
+span.color.white {
+    background-color: white;
+}
+span.color.blue {
+    background-color: blue; 
+}
+span.color.pink {
+    background-color: pink;
+}
+
+span.color.black {
+    background-color: black;
+}
+
+span.color.yellow {
+    background-color: yellow;
+}
+
+span.color.green {
+    background-color: green;
+}
+div.thumbnails {
+    display: flex;
+}
+
+div.thumbnail-item {
+    width: 200px;
+    height: 200px;
+    margin: 0.4em;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+div.thumbnail-item a {
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+
+div.thumbnail-item.festivalpunk {
+    background-image: url(Graphicdesign/festivalpunk/Festivalpunk.jpg);
+}
+
+div.thumbnail-item.carbon {
+    background-image: url(Graphicdesign/carbon/carbon1.jpg);
+}
+
+div.thumbnail-item.ibiza {
+    background-image: url(Graphicdesign/ibiza/ibiza1.jpg);
+}
+
+div.thumbnail-item.archer {
+    background-image: url(Graphicdesign/archers/archers2.jpg);
+}
+
+div.thumbnail-item.russian {
+    background-image: url(Graphicdesign/russian/russian2.jpg);
+}
+
+div.thumbnail-item.bohemian {
+    background-image: url(Graphicdesign/bohemian/bohemian2.jpg);
+}
+
+div.thumbnail-item.natural {
+    background-image: url(packaging/natural/natural1.jpg);
+}
+
+div.thumbnail-item.oliwki {
+    background-image: url(packaging/oliwki/oliwki1.jpg);
+}
+
+div.thumbnail-item.johnnie {
+    background-image: url(packaging/johnnie/johnnie1.jpg);
+}
+
+div.thumbnail-item.coffee {
+    background-image: url(packaging/coffee/coffee1.jpg);
+}
+
+div.thumbnail-item.motel {
+    background-image: url(photography/motel/motel1.jpg);
+}
+
+div.thumbnail-item.valencia {
+    background-image: url(photography/valencia/valencia1.jpg);
+}
+
+div.thumbnail-item.nyc {
+    background-image: url(photography/nyc/nyc1.jpg);
+}
+
+div.thumbnail-item.candy {
+    background-image: url(photography/candy/candy1.jpg);
+}
+
+div.thumbnail-item.aerial {
+    background-image: url(photography/aerial/aerial1.jpg);
+}
+
+div.thumbnail-item.analog {
+    background-image: url(illustration/analog/analog1.jpg);
+}
+
+div.thumbnail-item.jio {
+    background-image: url(illustration/jio/jio1.jpg);
+}
+
+div.thumbnail-item.virgin {
+    background-image: url(illustration/virgin/virgin1.jpg);
+}
+
+div.thumbnail-item.traveler {
+    background-image: url(illustration/traveler/traveler1.jpg);
+}
+
+div.thumbnail-item.june {
+    background-image: url(illustration/june/june1.jpg);
+}
+
+div.thumbnail-item.conceptual {
+    background-image: url(illustration/conceptual/conceptual1.jpg);
+}
+
+div.thumbnail-item.graduation {
+    background-image: url(3d/graduation/graduation3.gif);
+}
+
+div.thumbnail-item.malaga {
+    background-image: url(3d/malaga/malaga4.gif);
+}
+div.thumbnail-item.pupa {
+    background-image: url(3d/pupa/pupa2.png);
+}
+
+div.thumbnail-item.nba {
+    background-image: url(3d/nba/nba1.jpg);
+}
+div.thumbnail-item.perfection {
+    background-image: url(3d/perfection/perfection3.jpg);
+}
+
+div.thumbnail-item.rebtel {
+    background-image: url(animation/rebtel/rebtel2.gif);
+}
+
+div.thumbnail-item.ralph {
+    background-image: url(animation/ralph/ralph2.gif);
+}
+div.thumbnail-item.homer {
+    background-image: url(animation/homer/homer1.jpg);
+}
+
+div.thumbnail-item.moncler {
+    background-image: url(animation/moncler/moncler2.jpg);
+}
+
+div.thumbnail-item.power {
+    background-image: url(animation/power/power2.gif);
+}
+
+div.thumbnail-item.woman {
+    background-image: url(animation/woman/woman1.gif);
+}
+
+div.thumbnail-item.paradiso {
+    background-image: url(editorial/paradiso/paradiso1.jpg);
+}
+
+div.thumbnail-item.iceland {
+    background-image: url(editorial/iceland/iceland2.jpg);
+}
+
+div.thumbnail-item.rhoads {
+    background-image: url(editorial/rhoads/rhoads1.jpg);
+}
+
+div.thumbnail-item.trois {
+    background-image: url(editorial/trois/trois1.jpg);
+}
+
+div.thumbnail-item.lofoten {
+    background-image: url(editorial/lofoten/lofoten1.jpg);
+}
+
+div.thumbnail-item.tc {
+    background-image: url(editorial/tc/tc1.jpg);
+}
+div.thumbnail-item.legacy {
+    background-image: url(packaging/legacy/legacy1.jpg);
+}
+
+div.images {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 900px;
+    margin: 150px 0 0 480px;
+}
+   
+
+
+.column {
+    max-width: 840px;
+    margin: 0px;
+    border: 0px;
+    
+
+}
+
+.topics {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+}
+
+.topics .column {
+    flex: 1;
+    text-align: center;
+    max-width: 400px;
+}
+ul.categories {
+    list-style: none;
+    padding: 0;
+}
+div.image {
+    margin: 5px; 
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+div.footer {
+
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.8em;
+    margin: 0px;
+    border-top: 1px solid black;
+   
+}
+.examples {
+    display: flex;
+    justify-content: center;
+}
+
+.examples.column {
+
+    flex: 1;
+    max-width: 400px;
+
+}
+
+.examples img {
+    
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.graphic-design h2 {
+
+    font-size: 1em;
+    font-weight: 600;
+    margin: 15px;
+}
+
+.packaging h2 {
+
+    font-size: 1em;
+    font-weight: 600;
+    margin: 15px;
+}
+
+.photography h2 {
+
+    font-size: 1em;
+    font-weight: 600;
+    margin: 15px;
+}
+
+.illustration h2 {
+
+    font-size: 1em;
+    font-weight: 600;
+    margin: 15px;
+}
+
+.third h2 {
+
+    font-size: 1em;
+    font-weight: 600;
+    margin: 15px;
+}
+
+.animation h2 {
+
+    font-size: 1em;
+    font-weight: 600;
+    margin: 15px;
+}
+
+.editorial h2 {
+
+    font-size: 1em;
+    font-weight: 600;
+    margin: 15px;
+}
+
+.illustrator h2 {
+
+    font-size: 1em;
+    font-weight: 600;
+    margin: 15px;
+}
+
+.photoshop h2 {
+
+    font-size: 1em;
+    font-weight: 600;
+    margin: 15px;
+}
+
+.indesign h2 {
+
+    font-size: 1em;
+    font-weight: 600;
+    margin: 15px;
+}
+
+
+.lightroom h2 {
+
+    font-size: 1em;
+    font-weight: 600;
+    margin: 15px;
+}
+
+.after h2 {
+
+    font-size: 1em;
+    font-weight: 600;
+    margin: 15px;
+}
+
+.c4d h2 {
+
+    font-size: 1em;
+    font-weight: 600;
+    margin: 15px;
+}
+
+.rojo h2 {
+
+    font-size: 1em;
+    font-weight: 600;
+    color: white;
+    margin: 15px;
+    background-color: rgb(199, 4, 4)
+}
+
+.azul h2 {
+
+    font-size: 1em;
+    font-weight: 600;
+    color: white;
+    margin: 15px;
+    background-color: rgb(0, 174, 255)
+}
+
+.verde h2 {
+
+    font-size: 1em;
+    font-weight: 600;
+    color: white;
+    margin: 15px;
+    background-color:  rgb(83, 180, 58)
+}
+
+.naranja h2 {
+
+    font-size: 1em;
+    font-weight: 600;
+    color: white;
+    margin: 15px;
+    background-color: orange
+}
+
+.blanco h2 {
+
+    font-size: 1em;
+    font-weight: 600;
+    margin: 15px;
+    background-color: white;
+    color: black;
+    
+}
+
+.rosa h2 {
+
+    font-size: 1em;
+    font-weight: 600;
+    color: black;
+    margin: 15px;
+    background-color: pink;
+}
+
+.negro h2 {
+
+    font-size: 1em;
+    font-weight: 600;
+    margin: 15px;
+    background-color: black;
+    color: white;
+    
